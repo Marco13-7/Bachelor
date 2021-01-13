@@ -1,0 +1,63 @@
+\section{Anforderungsanalyse der Ausprägungen/Anwendungen}
+\subsection{Funktionale Anforderungen}
+
+In diesem Abschnitt werden die funktionalen Anforderungen der drei verschiedenen Anwendungen, die im Rahmen dieser Arbeit entstanden sind, vorgestellt.
+„Funktionale Anforderungen beschreiben gewünschte Funktionalitäten (was soll das System tun/können) eines Systems bzw. Produkts, dessen Daten oder 
+Verhalten.“
+
+Die funktionalen Anforderungen des Trainersimulators sind:
+
+\begin{itemize}
+    \item Der Trainersimulator muss dem Trainee ermöglichen sich mit dem Trainersimulator zu verbinden, wenn dieser sich im selben Netzwerk befindet und
+     die korrekte IP-Adresse eingegeben wurde.
+    \item Der Trainersimulator muss, bei Änderungen von PNU-Daten, dem hinzufügen von Bitfehlern oder dem Abspielen von Szenarien durch die graphische 
+    Oberfläche, die entsprechenden Informationen über das Netzwerk an alle verbundenen Trainees versenden.
+\end{itemize}
+
+Der Traineesimulator hat folgende funktionale Anforderungen:
+
+\begin{itemize}
+    \item Der Traineesimulator soll sich mit dem Trainersimulator verbinden können.
+    \item Der Trainingssimulator soll sich mit der Venus verbinden, nachdem dieser die nötigen Informationen vom Trainersimulator empfangen hat.
+    \item Der Trainingssimulator muss, wenn er Simulations-Daten empfängt, diese verarbeiten und über das Asterix-Interface versenden
+    \item Der Trainingssimulator muss, wenn er Model-Daten empfängt, die entsprechenden Informationen im Modell updaten und über das Asterix-Interface
+     senden
+\end{itemize}
+
+Die funktionalen Anforderungen der Testanwendung sollen nicht von den funktionalen Anforderungen des Radar Simulators nicht abweichen. Diese lauten:
+
+\begin{itemize}
+    \item Der Testsimulator soll eine Verbindung mit der Venus über das \\ Asterix-Interface aufbauen.
+    \item Der Testsimulator muss Informationen, die auf der graphischen Benutzeroberfläche verändert wurden über das Asterix-Interface versenden.
+\end{itemize}
+
+\subsection{Nicht funktionale Anforderungen}
+
+„Nichtfunktionale Anforderungen sind Anforderungen, an die "Qualität" in welcher die geforderte Funktionalität zu erbringen ist“. Die nicht funktionalen 
+Anforderungen lassen sich für die drei Applikationen zusammenfassen, da diese fast vollständig übereinstimmen. Lediglich durch die Netzwerkverbindung der 
+Trainer- und Traineeanwendung entstehen Unterschiede. Die nichtfunktionalen Anforderungen lassen sich in mehrere Bereiche unterteilen. 
+Leistungsanforderungen, Qualitätsanforderungen und Randbedingungen.
+
+„Unter Leistungsanforderungen versteht man im Allgemeinen, Anforderungen an die empirisch messbaren nicht-funktionalen Anforderungen eines Systems, also 
+Anforderungen, deren zu Grunde liegendes Bedürfnis ein Leistungsmerkmal ist.“ [Braun-ausarbeitung]. Eine Leistungsanforderung jeder Anwendung ist, dass 
+diese die Simulation in Echtzeit ausführt und eine Verzögerung um 10 ms im akzeptablen Bereich liegt. Zudem sollen diese nicht zu viel Speicher besetzen 
+und die Prozessorbelastung sollte einen realistischen Wert betragen. Um dafür zu garantieren werden Belastungstests, mit der entsprechenden Hardware, auf 
+der die Anwendung später laufen soll, durchgeführt.
+
+Der „ISO/IEC 25000 Software engeneering Software product Qualitiy Requirements and Evaluation (SQUuarRE) ist ein aktueller Standard für die 
+Qualitätskriterien und -bewertungen von Softwareprodukten. Der Software Product Quality Model aus dem Standard ISO/IEC 25010 beschreibt acht Kriterien, 
+um die Qualität eines Produktes zu bewerten. Die acht Kriterien sind:
+\begin{itemize}
+    \item Funktionalität
+    \item Leistungseffizienz
+    \item Kompatibilität
+    \item Benutzbarkeit
+    \item Zuverlässigkeit
+    \item Sicherheit
+    \item Wartbarkeit
+    \item Übertragbarkeit    
+\end{itemize}
+
+Die Qualitätsanforderung, die in dieser Arbeit im Mittelpunkt steht, ist die Wartbarkeit der Anwendungen. Wie bereits erwähnt soll die Arbeit zeigen, wie 
+eine Anwendung modularisiert und erweitert werden kann. Diese Kriterien fallen unter den Oberbegriff Wartbarkeit. Vor allem die Wiederverwendbarkeit von 
+Komponenten ist ein wichtiges Kriterium beim Erstellen der Anwendungen.

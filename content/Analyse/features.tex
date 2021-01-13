@@ -1,0 +1,14 @@
+\chapter{Analyse der Features}
+\subchapter{Single Target Tracking}
+Ein Ziel in der Venus wird ausgewählt und der STT Modus wird aktiviert. Das Audiogate wird auf das Ziel gesetzt. Es wird ein extra Sektor mit einem
+Winkel von 100 mils erstellt, welcher das Audiogate als Mittelpunkt hat. Die Beamline bewegt sich innerhalb des Sektors und erfasst das Ziel erneut. Wenn
+das Ziel wieder erfasst wird, wird das Audiogate erneut auf dem Ziel positioniert. Falls eine gewisse Zeit kein \texttt{Track} gefunden wird soll das Radargerät
+den Sektor vergrößern und einen neuen Track suchen.
+
+\subchapter{Doppler Ton}
+Durch den DopplerEffekt lässt sich erkenn, ob sich ein Objekt bewegt oder still steht. Bevor die Technologie soweit entwickelt war, dass man Objekte auf
+graphischen Oberflächen anzeigte, wurden Radarsignale in Audiosignale umgewandelt. Durch diese Signale konnten gut trainierte Soldaten die vom Radar 
+erfassten Objekte identifizieren. Je nach Oberfläche, Größe und die Bewegungen unterscheiden sich das Radarsignal, sowie das Audiosignal. So konnte z.B.
+ein Auto von einem Hubschrauber unterschieden werden. Dieses Audiosignal wird auch von den Sensoren von Thales bereitgestellt. Ebenso gibt es auch in der 
+Venus eine Möglichkeit dieses Signal abspielen zu lassen, wenn ein Ziel mit Hilfe von Single Target Tracking verfolgt wird. Diese Funktion ist ebenfalls
+nicht im Simulator implementiert. 
