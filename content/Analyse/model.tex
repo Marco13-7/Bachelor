@@ -7,8 +7,7 @@ Die Klassen, die in dieser Arbeit verwendet werden, sind:
 
 \begin{itemize}
     \item SimulatorBitNode: Der SimulatorBitNode ist eine Baumdatenstruktur in der Bitfehler abgelegt werden. Das SimulatorModelRadar besitzt höchstens einen SimulatorBitNode.
-    \item SimulatorModelEquipment: Der SimulatorModelRadar kann beliebig viele   \\
-    SimulatorModelEquipment-Objekte des Sensors gespeichern. Weil die PNU ein Zubehör des Sensors ist, werden dessen Informationen als SimulatorModelEquipment gespeichert. Dafür gibt es eine Klasse, welche SimulatorModelEquipment erweitert. Diese heißt SimulatorModelPNU.
+    \item SimulatorModelEquipment: Der SimulatorModelRadar kann beliebig viele    SimulatorModelEquipment\=Objekte des Sensors gespeichern. Weil die PNU ein Zubehör des Sensors ist, werden dessen Informationen als SimulatorModelEquipment gespeichert. Dafür gibt es eine Klasse, welche SimulatorModelEquipment erweitert. Diese heißt SimulatorModelPNU.
     \item SimulatorModelSector: Um Sektor Informationen des Sensors zu speichern, gibt es die Klasse SimulatorModelSector. Die Klasse SimulatorModelRadar hat höchstens einen aktuellen Sektor und beliebig viele weitere Sektoren.    
 \end{itemize}
 
@@ -44,3 +43,19 @@ Wie sinnvoll ist es nun diese Klassen vom Modell zu trennen? Das Scenario wird v
     \label{figure:scenarioview}
 \end{figure}
 
+TargetSimulation-Objekte werden nur vom ScenarioUpdater erzeugt. Dieser hat eine Liste mit ITargetUpdateListener, bei denen nach einem bestimmten Zeitintervall die Methode updateTarget(Targetsimulation) aufgerufen wird. Der TrackUpdater ist einer der ITargetUpdateListener. Die TargetSimulation-Objekte werden direkt durch den Methodenparameter an den TrackUpdater übergeben.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1\textwidth]{content/assets/Kapitel3/TargetSimulationUsecase.png}
+    \caption{Beziehung zwischen SimulatorInstance und ScenarioView}
+    \label{figure:x}
+\end{figure}
+
+Eine modulare Architektur hat eine klare Schnittstelle. Das Problem ist aber, dass die SimulatorInstance keine geeignete Schnittstelle ist. Im Fall der neuen Anwendung, soll die Schnittstelle zwischen SimulatorInstance und ScenarioView nicht mehr die gesamte SimulatorInstance sein, sondern im Optimalfall nur noch das Modell. Wenn aber das Modell die einzige Schnittstelle zwischen SimulatorInstance und View\=Komponente ist, hat der ScenarioUpdater keinen Zugriff mehr auf den TrackUpdater.
+
+Wie ist es nun möglich, dass der ScenarioUpdater die Werte an den TrackUpdater übergeben kann, wenn er nur auf das Modell zugreifen kann? Er muss die TargetSimulation-Objekte im Modell speichern. Damit er diese im Modell speichern kann, muss die TargetSimulation Klasse eine Beziehung zum SimulatorModelRadar haben.
+
+Im Falle, dass die Schnittstelle der ViewKomponente außer dem Modell noch einen ITargetUpdateListener beinhaltet, müssen die TargetSimulation-Objekte nicht im Modell gespeichert werden.
+
+Der SimulatorModelTrack wird, wie das Scenario nur in einem Modul verwendet. In dem Fall ist das Modul die SimulatorInstance. Der SimulatorModelTrack wird im TrackUpdater mit Hilfe einer TargetSimulation erzeugt und in einer Liste gespeichert. In einem bestimmten Zeitintervall wird die Liste ausgewertet und Asterix-Nachrichten werden versendet. Es ist also auch nicht sinnvoll diese im Modell zu speichern.
