@@ -1,0 +1,12 @@
+\subsection{SimulatorInstance}
+Die SimulatorInstance unterscheidet sich bei jeder Anwendungsausprägung. Jedoch gibt es Komponenten, welche von mehreren der Anwendungen verwendet werden 
+können. Im Folgenden wird die Grundstruktur SimulatorInstance beschrieben, welche Komponenten diese verwenden kann und wie letztendlich die 
+unterschiedlichen Instancen aufgeteilt sind.
+
+Eine Komponente, die jede Instance enthält, ist ein Datenmodell. Es wurde entschieden, dass das Modell des RadarSimulators mit einer kleinen Erweiterung,
+ für alle drei Anwendungen genutzt wird. Dadurch kann nicht nur der Modell-Code wiederverwendet werden, sondern auch der Code zum Erstellen und Verwalten 
+des Modells bleibt identisch.
+
+Da es nun eine Komponente gibt, die jede Anwendungsausprägung verwendet, ist es sinnvoll eine Klasse zu erstellen, die das Modell verwaltet und auf der 
+die weiteren Simulator Instanzen aufbauen. Diese Klasse heißt SimulatorCore.
+
