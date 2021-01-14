@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.29)  14 JAN 2021 20:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.29)  14 JAN 2021 20:54
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -759,7 +759,7 @@ Package pdftex.def Info: content/assets/Kapitel4/ExtensionPointEasy.png  used on
 File: content/assets/Kapitel4/konzeptBenutzeroberfläche1.png Graphic file (type png)
 <use content/assets/Kapitel4/konzeptBenutzeroberfläche1.png>
 Package pdftex.def Info: content/assets/Kapitel4/konzeptBenutzeroberfläche1.png  used on input line 21.
-(pdftex.def)             Requested size: 298.75267pt x 107.29433pt.
+(pdftex.def)             Requested size: 384.10965pt x 137.94563pt.
  [16 <./content/assets/Kapitel4/konzeptBenutzeroberfläche1.png>]) (./content/Konzept/SimulatorInstance.tex) [17] [18]
 <content/assets/BeamlineTaskSTT.png, id=178, 2023.56pt x 3027.31pt>
 File: content/assets/BeamlineTaskSTT.png Graphic file (type png)
