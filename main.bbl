@@ -1,0 +1,24 @@
+\begin{thebibliography}{1}
+
+\bibitem{iso25010}
+{ISO} 25000.
+\newblock {ISO}/{IEC} 25010 - system and software quality models.
+
+\bibitem{nFunkAnf}
+Michael Braun.
+\newblock Nicht-funktionale anforderungen.
+\newblock 12. Januar 2016.
+
+\bibitem{horn}
+Torsten Horn.
+\newblock Osgi: Dynamisches {K}omponentensystem für {J}ava.
+
+\bibitem{modularSoftware}
+Stefan Marr.
+\newblock Modulare software architektur, 2020.
+
+\bibitem{funkAnf}
+R.Heini.
+\newblock Funktionale, nicht funktionale anforderungen, 2020.
+
+\end{thebibliography}

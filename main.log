@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.29)  14 JAN 2021 20:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.29)  20 JAN 2021 17:07
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -535,26 +535,234 @@ Package tocbasic Info: setting babel extension for `lol' on input line 143.
 Package scrhack Info: redefining \lstlistoflistings on input line 143.
 )) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-)) (./main.aux (./content/titelseite.aux) (./content/einleitung.aux) (./content/Analyse/analyse.aux) (./content/Konzept/konzept.aux))
+)) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/glossaries/base/glossaries.sty
+Package: glossaries 2020/03/19 v4.46 (NLCT)
+ (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+ (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/generic/xkeyval/xkeyval.tex (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks24
+\XKV@tempa@toks=\toks25
+)
+\XKV@depth=\count284
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/mfirstuc/mfirstuc.sty
+Package: mfirstuc 2017/11/14 v2.06 (NLCT)
+\@glsmfirst=\toks26
+\@glsmrest=\toks27
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/xfor/xfor.sty
+Package: xfor 2009/02/05 v1.05 (NLCT)
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/datatool/datatool-base.sty
+Package: datatool-base 2019/09/27 v2.32 (NLCT)
+ (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip65
+
+For additional information on amsmath, use the `?' option.
+(c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks28
+\ex@=\dimen162
+)) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen163
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count285
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count286
+\leftroot@=\count287
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count288
+\DOTSCASE@=\count289
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+\big@size=\dimen164
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count290
+\c@MaxMatrixCols=\count291
+\dotsspace@=\muskip17
+\c@parentequation=\count292
+\dspbrk@lvl=\count293
+\tag@help=\toks29
+\row@=\count294
+\column@=\count295
+\maxfields@=\count296
+\andhelp@=\toks30
+\eqnshift@=\dimen165
+\alignsep@=\dimen166
+\tagshift@=\dimen167
+\tagwidth@=\dimen168
+\totwidth@=\dimen169
+\lineht@=\dimen170
+\@envbody=\toks31
+\multlinegap=\skip66
+\multlinetaggap=\skip67
+\mathdisplay@stack=\toks32
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/substr/substr.sty
+Package: substr 2009/10/20 v1.2 Handle substrings
+\c@su@anzahl=\count297
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/datatool/datatool-fp.sty
+Package: datatool-fp 2019/09/27 v2.32 (NLCT)
+ (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+ `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count298
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count299
+\FP@xia=\count300
+\FP@xib=\count301
+\FP@xfa=\count302
+\FP@xfb=\count303
+\FP@rega=\count304
+\FP@regb=\count305
+\FP@regs=\count306
+\FP@times=\count307
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count308
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+)))
+\@dtl@toks=\toks33
+\@dtl@tmpcount=\count309
+\dtl@tmplength=\skip68
+\dtl@sortresult=\count310
+\@dtl@numgrpsepcount=\count311
+\@dtl@datatype=\count312
+\dtl@codeA=\count313
+\dtl@codeB=\count314
+\@dtl@foreach@level=\count315
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/glossaries/base/glossaries-compatible-307.sty
+Package: glossaries-compatible-307 2020/03/19 v4.46 (NLCT)
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/tracklang/tracklang.sty
+Package: tracklang 2020/06/30 v1.5 (NLCT) Track Languages
+ (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/generic/tracklang/tracklang.tex)) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/glossaries-german/glossaries-german.ldf
+File: glossaries-german.ldf 2014/11/23 v1.0
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/glossaries-english/glossaries-english.ldf
+File: glossaries-english.ldf 2014/11/23 v1.0
+)
+\gls@level=\count316
+\@gls@tmpb=\toks34
+\gls@tmplen=\skip69
+\glskeylisttok=\toks35
+\glslabeltok=\toks36
+\glsshorttok=\toks37
+\glslongtok=\toks38
+ (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-hypernav.sty
+Package: glossary-hypernav 2020/03/19 v4.46 (NLCT)
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-list.sty
+Package: glossary-list 2020/03/19 v4.46 (NLCT)
+\glslistdottedwidth=\skip70
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-long.sty
+Package: glossary-long 2020/03/19 v4.46 (NLCT)
+ (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip71
+\LTright=\skip72
+\LTpre=\skip73
+\LTpost=\skip74
+\LTchunksize=\count317
+\LTcapwidth=\dimen171
+\LT@head=\box56
+\LT@firsthead=\box57
+\LT@foot=\box58
+\LT@lastfoot=\box59
+\LT@cols=\count318
+\LT@rows=\count319
+\c@LT@tables=\count320
+\c@LT@chunks=\count321
+\LT@p@ftn=\toks39
+)
+Class scrbook Info: longtable captions redefined on input line 43.
+\glsdescwidth=\skip75
+\glspagelistwidth=\skip76
+) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-super.sty
+Package: glossary-super 2020/03/19 v4.46 (NLCT)
+ (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/supertabular/supertabular.sty
+Package: supertabular 2020/02/02 v4.1g the supertabular environment
+\c@tracingst=\count322
+\ST@wd=\dimen172
+\ST@rightskip=\skip77
+\ST@leftskip=\skip78
+\ST@parfillskip=\skip79
+\ST@pageleft=\dimen173
+\ST@headht=\dimen174
+\ST@tailht=\dimen175
+\ST@pagesofar=\dimen176
+\ST@pboxht=\dimen177
+\ST@lineht=\dimen178
+\ST@prevht=\dimen179
+\ST@toadd=\dimen180
+\ST@dimen=\dimen181
+\ST@pbox=\box60
+)) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/glossaries/styles/glossary-tree.sty
+Package: glossary-tree 2020/03/19 v4.46 (NLCT)
+\glstreeindent=\skip80
+)) (./content/glossar.tex
+\glswrite=\write4
+\glo@main@file=\write5
+\openout5 = `main.glo'.
+
+Package glossaries Info: Writing glossary file main.glo on input line 1.
+\glo@acronym@file=\write6
+\openout6 = `main.acn'.
+
+Package glossaries Info: Writing glossary file main.acn on input line 1.
+) (./main.aux (./content/titelseite.aux) (./content/einleitung.aux) (./content/Grundlagen/grundlagen.aux) (./content/Analyse/analyse.aux) (./content/Konzept/konzept.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-Package hyperref Info: Link coloring OFF on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+Package hyperref Info: Link coloring OFF on input line 11.
  (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -562,14 +770,14 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count284
+\c@section@level=\count323
 )
-LaTeX Info: Redefining \ref on input line 5.
-LaTeX Info: Redefining \pageref on input line 5.
-LaTeX Info: Redefining \nameref on input line 5.
+LaTeX Info: Redefining \ref on input line 11.
+LaTeX Info: Redefining \pageref on input line 11.
+LaTeX Info: Redefining \nameref on input line 11.
  (./main.out) (./main.out)
-\@outlinefile=\write4
-\openout4 = `main.out'.
+\@outlinefile=\write7
+\openout7 = `main.out'.
 
 Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           Using `bookmark' together with `hyperref' is recommended,
@@ -578,33 +786,34 @@ Class scrbook Info: loading recommended package `bookmark'.
 (scrbook)           `bookmarkpackage=false' before \begin{document} and
 (scrbook)           you can avoid this message adding:
 (scrbook)             \usepackage{bookmark}
-(scrbook)           before \begin{document} on input line 5.
+(scrbook)           before \begin{document} on input line 11.
  (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count285
+\BKM@id=\count324
 )) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
-\scratchdimen=\dimen162
-\scratchbox=\box54
-\nofMPsegments=\count287
-\nofMParguments=\count288
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count289
-\MPscratchDim=\dimen163
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count325
+\scratchdimen=\dimen182
+\scratchbox=\box61
+\nofMPsegments=\count326
+\nofMParguments=\count327
+\everyMPshowfont=\toks40
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen183
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
+\everyMPtoPDFconversion=\toks41
 ) (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count292
-Package scrhack Info: undefining \float@addtolists on input line 5.
+\c@lstlisting=\count331
+Package scrhack Info: undefining \float@addtolists on input line 11.
+ (./main.glsdefs)
 \openout2 = `content/titelseite.aux'.
 
  (./content/titelseite.tex
@@ -636,6 +845,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 7.
  [1
 
+\openout4 = `main.ist'.
+
 
 
 
@@ -654,10 +865,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 3.
 )
-\tf@toc=\write5
-\openout5 = `main.toc'.
+\tf@toc=\write8
+\openout8 = `main.toc'.
 
- [3] [4
+
+No file main.gls.
+No file main.acr.
+[3] [4
 
 
 ]
@@ -669,10 +883,10 @@ chapter 1.
 
 
 
-]) [2] [3]
-\openout2 = `content/Analyse/analyse.aux'.
+] [2]) [3]
+\openout2 = `content/Grundlagen/grundlagen.aux'.
 
- (./content/Analyse/analyse.tex [4
+ (./content/Grundlagen/grundlagen.tex [4
 
 
 
@@ -680,50 +894,49 @@ chapter 1.
 
 ]
 chapter 2.
+) [5]
+\openout2 = `content/Analyse/analyse.aux'.
+
+ (./content/Analyse/analyse.tex [6
+
+
+
+
+
+]
+chapter 3.
 (./content/Analyse/anforderungsAnalyse.tex
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 11.
  (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [5]) (./content/Analyse/softwareArchitektur.tex [6]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 12.
+) [7] [8]) [9] (./content/Analyse/softwareArchitektur.tex
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7.
  (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-<content/assets/RadarSimulatorUML.png, id=91, 2139.995pt x 1136.245pt>
-File: content/assets/RadarSimulatorUML.png Graphic file (type png)
-<use content/assets/RadarSimulatorUML.png>
-Package pdftex.def Info: content/assets/RadarSimulatorUML.png  used on input line 28.
-(pdftex.def)             Requested size: 341.43442pt x 181.28278pt.
- [7] (./content/Analyse/benutzeroberfläche.tex [8 <./content/assets/RadarSimulatorUML.png>]
-<content/assets/Kapitel3/AlterSimulator.png, id=113, 1931.215pt x 967.615pt>
+) [10]
+<content/assets/Kapitel3/SimulatorModels.png, id=168, 1971.365pt x 1288.815pt>
+File: content/assets/Kapitel3/SimulatorModels.png Graphic file (type png)
+<use content/assets/Kapitel3/SimulatorModels.png>
+Package pdftex.def Info: content/assets/Kapitel3/SimulatorModels.png  used on input line 32.
+(pdftex.def)             Requested size: 341.43442pt x 223.20578pt.
+ (./content/Analyse/benutzeroberfläche.tex [11 <./content/assets/Kapitel3/SimulatorModels.png>]
+<content/assets/Kapitel3/AlterSimulator.png, id=178, 1931.215pt x 967.615pt>
 File: content/assets/Kapitel3/AlterSimulator.png Graphic file (type png)
 <use content/assets/Kapitel3/AlterSimulator.png>
-Package pdftex.def Info: content/assets/Kapitel3/AlterSimulator.png  used on input line 12.
+Package pdftex.def Info: content/assets/Kapitel3/AlterSimulator.png  used on input line 14.
 (pdftex.def)             Requested size: 341.43442pt x 171.06262pt.
-<content/assets/Kapitel3/TabsPerApp.png, id=114, 2413.015pt x 1288.815pt>
+<content/assets/Kapitel3/TabsPerApp.png, id=180, 2413.015pt x 1288.815pt>
 File: content/assets/Kapitel3/TabsPerApp.png Graphic file (type png)
 <use content/assets/Kapitel3/TabsPerApp.png>
-Package pdftex.def Info: content/assets/Kapitel3/TabsPerApp.png  used on input line 21.
+Package pdftex.def Info: content/assets/Kapitel3/TabsPerApp.png  used on input line 24.
 (pdftex.def)             Requested size: 341.43442pt x 182.3601pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (./content/Analyse/simulatorInstance.tex
-Underfull \vbox (badness 2096) has occurred while \output is active []
-
- [9 <./content/assets/Kapitel3/AlterSimulator.png>]
-Overfull \hbox (29.80188pt too wide) in paragraph at lines 5--7
-\T1/lmr/m/n/12 siert. Der Ab-stract-Sen-sor ist die Va-ter-klas-se der je-wei-li-gen Sen-sor-ty-pen (\T1/lmtt/m/n/12 SensorBORA\T1/lmr/m/n/12 ,
- []
-
-) (./content/Analyse/model.tex [10 <./content/assets/Kapitel3/TabsPerApp.png>] [11]
-<content/assets/Kapitel3/ScenarioViewRelations.png, id=135, 2413.015pt x 686.565pt>
+) (./content/Analyse/simulatorInstance.tex [12 <./content/assets/Kapitel3/AlterSimulator.png>] [13 <./content/assets/Kapitel3/TabsPerApp.png>]) (./content/Analyse/model.tex [14]
+<content/assets/Kapitel3/ScenarioViewRelations.png, id=201, 2413.015pt x 686.565pt>
 File: content/assets/Kapitel3/ScenarioViewRelations.png Graphic file (type png)
 <use content/assets/Kapitel3/ScenarioViewRelations.png>
 Package pdftex.def Info: content/assets/Kapitel3/ScenarioViewRelations.png  used on input line 41.
 (pdftex.def)             Requested size: 426.7914pt x 121.42876pt.
-<content/assets/Kapitel3/TargetSimulationUsecase.png, id=136, 2633.84pt x 971.63pt>
+<content/assets/Kapitel3/TargetSimulationUsecase.png, id=202, 2633.84pt x 971.63pt>
 File: content/assets/Kapitel3/TargetSimulationUsecase.png Graphic file (type png)
 <use content/assets/Kapitel3/TargetSimulationUsecase.png>
 Package pdftex.def Info: content/assets/Kapitel3/TargetSimulationUsecase.png  used on input line 50.
@@ -732,41 +945,36 @@ Package pdftex.def Info: content/assets/Kapitel3/TargetSimulationUsecase.png  us
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (0.49948pt too wide) in paragraph at lines 55--56
-\T1/lmr/m/n/12 View[]Komponente ist, hat der Sce-na-rioUp-da-ter kei-nen Zu-griff mehr auf den TrackUp-
- []
-
-[12 <./content/assets/Kapitel3/ScenarioViewRelations.png>]))) [13 <./content/assets/Kapitel3/TargetSimulationUsecase.png>]
+[15 <./content/assets/Kapitel3/ScenarioViewRelations.png>]))) [16 <./content/assets/Kapitel3/TargetSimulationUsecase.png>]
 \openout2 = `content/Konzept/konzept.aux'.
 
- (./content/Konzept/konzept.tex [14
-
-
-
-
-
-]
-chapter 3.
+ (./content/Konzept/konzept.tex
+chapter 4.
 (./content/Konzept/konzeptBenutzeroberfläche.tex
-<content/assets/Kapitel4/ExtensionPointEasy.png, id=155, 1409.265pt x 686.565pt>
+<content/assets/Kapitel4/ExtensionPointEasy.png, id=217, 1409.265pt x 686.565pt>
 File: content/assets/Kapitel4/ExtensionPointEasy.png Graphic file (type png)
 <use content/assets/Kapitel4/ExtensionPointEasy.png>
 Package pdftex.def Info: content/assets/Kapitel4/ExtensionPointEasy.png  used on input line 12.
 (pdftex.def)             Requested size: 256.07744pt x 124.7497pt.
- [15 <./content/assets/Kapitel4/ExtensionPointEasy.png>]
-<content/assets/Kapitel4/konzeptBenutzeroberfläche1.png, id=163, 2694.065pt x 967.615pt>
+ [17
+
+
+
+
+
+ <./content/assets/Kapitel4/ExtensionPointEasy.png>]
+<content/assets/Kapitel4/konzeptBenutzeroberfläche1.png, id=224, 2694.065pt x 967.615pt>
 File: content/assets/Kapitel4/konzeptBenutzeroberfläche1.png Graphic file (type png)
 <use content/assets/Kapitel4/konzeptBenutzeroberfläche1.png>
 Package pdftex.def Info: content/assets/Kapitel4/konzeptBenutzeroberfläche1.png  used on input line 21.
 (pdftex.def)             Requested size: 384.10965pt x 137.94563pt.
- [16 <./content/assets/Kapitel4/konzeptBenutzeroberfläche1.png>]) (./content/Konzept/SimulatorInstance.tex) [17] [18]
-<content/assets/BeamlineTaskSTT.png, id=178, 2023.56pt x 3027.31pt>
+ [18 <./content/assets/Kapitel4/konzeptBenutzeroberfläche1.png>]) (./content/Konzept/SimulatorInstance.tex) [19] [20]
+<content/assets/BeamlineTaskSTT.png, id=239, 2023.56pt x 3027.31pt>
 File: content/assets/BeamlineTaskSTT.png Graphic file (type png)
 <use content/assets/BeamlineTaskSTT.png>
 Package pdftex.def Info: content/assets/BeamlineTaskSTT.png  used on input line 51.
 (pdftex.def)             Requested size: 256.07744pt x 383.07831pt.
-<content/assets/TrackUpdaterSTT.png, id=179, 2007.5pt x 3709.86pt>
+<content/assets/TrackUpdaterSTT.png, id=240, 2007.5pt x 3709.86pt>
 File: content/assets/TrackUpdaterSTT.png Graphic file (type png)
 <use content/assets/TrackUpdaterSTT.png>
 Package pdftex.def Info: content/assets/TrackUpdaterSTT.png  used on input line 57.
@@ -775,23 +983,38 @@ Package pdftex.def Info: content/assets/TrackUpdaterSTT.png  used on input line 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [19 <./content/assets/BeamlineTaskSTT.png>] [20 <./content/assets/TrackUpdaterSTT.png>] (./main.aux (./content/titelseite.aux) (./content/einleitung.aux) (./content/Analyse/analyse.aux) (./content/Konzept/konzept.aux))
+) [21 <./content/assets/BeamlineTaskSTT.png>] [22 <./content/assets/TrackUpdaterSTT.png>] (./main.bbl) [23
+
+
+
+
+] (./main.aux (./content/titelseite.aux) (./content/einleitung.aux) (./content/Grundlagen/grundlagen.aux) (./content/Analyse/analyse.aux) (./content/Konzept/konzept.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 13921 strings out of 479382
- 256493 string characters out of 5857467
- 894068 words of memory out of 5000000
- 30615 multiletter control sequences out of 15000+600000
+ 20870 strings out of 479382
+ 387724 string characters out of 5857467
+ 922180 words of memory out of 5000000
+ 37365 multiletter control sequences out of 15000+600000
  453187 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 106i,9n,111p,10670b,1165s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 106i,8n,111p,10670b,1194s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{glo:buildpipeline} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:stt} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:venus} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:mmi} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:equinox} has been referenced but does not exist, replaced by a fixed one
+
 {c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/type1/public/lm/lmro12.pfb><c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (24 pages, 965993 bytes).
+Output written on main.pdf (27 pages, 1001776 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
- 234 compressed objects within 3 object streams
- 63 named destinations out of 1000 (max. 500000)
- 202 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 266 words of extra memory for PDF output out of 10000 (max. 10000000)
 

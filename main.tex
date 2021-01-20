@@ -1,6 +1,12 @@
 \documentclass{scrbook}
 
 \input{inc/style}
+\usepackage{cite}
+\usepackage[acronym]{glossaries}
+
+
+\input{content/glossar}
+
 
 \begin{document}
 % Vorspann
@@ -8,14 +14,18 @@
 \include{content/titelseite}
 
 \tableofcontents
+\printglossaries
 
 % Hauptinhalt
 \mainmatter
 \include{content/einleitung}
+\include{content/Grundlagen/grundlagen}
 \include{content/Analyse/analyse}
 \include{content/Konzept/konzept}
 
 \appendix
+\bibliography{quellen}{}
+\bibliographystyle{plain}
 
 \end{document}
 

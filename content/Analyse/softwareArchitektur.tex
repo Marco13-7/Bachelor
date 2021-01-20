@@ -1,33 +1,39 @@
-\section{Softwarearchitektur des Radarsimulators}
+\section{Analyse des Radarsimulators}
 
-Im folgenden Abschnitt werden die einzelnen Softwarekomponenten der Radarsimulator Anwendung beschrieben und auf Wiederverwendbarkeit und Modularität überprüft. Dabei wird sich auf die Kernkomponenten der Anwendung beschränkt. Diese sind die SimulatorInstance, die View-Komponente und das Datenmodell. Der Radarsimulator wird von Thales zur Verfügung gestellt und wurde, vor und während dem Schreiben des Kapitels, nicht verändert. Der Radarsimulator mit neuer Architektur wird als Testsimulator bezeichnet.
+\subsection{Softwarearchitektur}
 
-Der Radarsimulator ist eine Eclipse RCP Anwendung und setzt sich aus mehreren Equinox Plug-In Modulen zusammen. Er wird durch Basis- und weiteren
-Plug-Ins der Venus unterstütz. Diese stellen spezifische Funktionen, wie Anwendungsstruktur und Helferklassen zur Verfügung.Der Startpunkt der Anwendung 
-ist die Klasse SimulatorMain, welche sich in dem Modul RadarSimulator.app befindet. Dieses Modul stellt die Benutzeroberfläche des Simulators zur 
-Verfügung. Im Modul werden die Startklasse der Anwendung und weitere Fenstereinstellungen für diese Anwendungen in einer Applikation.e4xmi-Datei 
-angegeben. Diese Datei ist die Basis jeder Eclipse RCP Applikation. Wenn die Eclipse Applikation die Startklasse in Java aufruft, startet der 
-RestartService. Diese ist im folgenden Codeabschnitt zu sehen.
+Im folgenden Abschnitt werden die einzelnen Softwarekomponenten der Radarsimulator Anwendung beschrieben und auf Wiederverwendbarkeit und Modularität überprüft. Dabei stehen die Kernkomponenten der Anwendung im Fokus. Der Radarsimulator wird von Thales zur Verfügung gestellt und wurde vor und während dem Schreiben des Kapitels nicht verändert. Der Radarsimulator mit neuer Architektur wird in den folgenden Kapiteln Testsimulator genannt.
+
+Der Radarsimulator ist eine Eclipse-RCP Anwendung und setzt sich aus mehreren Equinox Plug-In-Modulen zusammen. Er wird durch Basis-Plug-Ins der Venus unterstütz. Diese stellen spezifische Funktionen, wie Anwendungsstruktur und Helferklassen zur Verfügung. Der Startpunkt der Anwendung ist die Klasse \texttt{SimulatorMain}, welche sich in dem Modul \texttt{RadarSimulator.app} befindet. Dieses stellt die Benutzeroberfläche des Simulators zur Verfügung. Im Modul werden die Startklasse der Anwendung und weitere Fenstereinstellungen für diese Anwendungen in einer \texttt{Application.e4xmi-Datei} angegeben. Diese Datei ist die Basis jeder Eclipse-RCP Applikation. Wenn die Eclipse Applikation die Startklasse in Java aufruft, startet der RestartService. Diese ist im folgenden Codeabschnitt zu sehen.
+
 
 \begin{lstlisting}
 
-public double getAzimuthStepSize() {
-	return azimuthStepSize;
-}
-
-public boolean isClockwise() {
-	return clockwise;
+@PostConstruct
+void start(final BorderPane parent) {
+    this.parent = parent;
+    restartService.setOnScheduled(e -> {
+        parent.setCenter(new JFXSpinner());
+        disposeOverview();
+    });
+    restartService.setOnSucceeded(e -> {
+        instance = restartService.getValue();
+        initSimulatorOverview(instance);
+    });
+    restartService.restart();
 }
 
 \end{lstlisting}
 
-Die gesamte Funktionalität der Sensorsimulation stellt die SimulatorInstance zur Verfügung. Wenn der RestartService die SimulatorInstance erfolgreich geladen hat, initialisiert dieser die Benutzeroberfläche der Anwendung. Außerdem ermöglicht es der RestartService, die Simulation durch einen Mausklick in ein Fenster Menü item neu zu starten. Dabei werden die Benutzeroberfläche, sowie die SimulatorInstance neu geladen. Der RestartService soll zudem auch im zukünftigen Testsimulator sowie im Trainer- und Traineesimulator enthalten sein. Die SimulatorInstance und der SimulatorMainContentProvider werden in der SimulatorMain als Attribute gespeichert. Wenn die Benutzeroberfläche geladen wird, bekommt diese die SimulatorInstance übergeben, damit diese die Simulation steuern kann. Wie es bei einer Eclipse Applikation üblich ist sind Funktionen der Anwendung in Softwaremodule eingeteilt. Diese Module heißen bei Eclipse Plug-Ins. In der folgenden Abbildung erkennt man die Aufteilung der Hauptkomponenten in zwei Plug-Ins.
+Die gesamte Funktionalität der Sensorsimulation stellt die \texttt{SimulatorInstance zur Verfügung}. Wenn der \texttt{RestartService} die \texttt{SimulatorInstance} erfolgreich geladen hat, initialisiert dieser die Benutzeroberfläche der Anwendung. Außerdem ermöglicht es der \texttt{RestartService}, die Simulation durch einen Mausklick in ein Fenster Menü item neu zu starten. Dabei werden die Benutzeroberfläche, sowie die \texttt{SimulatorInstance} neu geladen. Der \texttt{RestartService} soll zudem auch im zukünftigen Testsimulator sowie im Trainer- und Traineesimulator enthalten sein. Die \texttt{SimulatorInstance} und der \texttt{SimulatorMainContentProvider} werden in der SimulatorMain als Attribute gespeichert. Wenn die Benutzeroberfläche geladen wird, bekommt diese die \texttt{SimulatorInstance} übergeben, damit diese die Simulation steuern kann. Wie es bei einer Eclipse Applikation üblich ist, sind Funktionen der Anwendung in Softwaremodule eingeteilt. Diese Module heißen im Equinox-Framework Plug-Ins. Auf Abbildung \ref{img:SimulatorModels} erkennt man die Aufteilung der Hauptkomponenten in zwei Plug-Ins.
 
-\begin{figure}[h!]
+\begin{figure}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{content/assets/RadarSimulatorUML.png}
-    \caption{UML-Diagramm des Radarsimulators}
+    \includegraphics[width=0.8\textwidth]{content/assets/Kapitel3/SimulatorModels.png}
+    \caption{Die Module \texttt{SensorSimulator} und \texttt{RadarSimulator.app} des Radarsimulators}
+    \label{img:SimulatorModels}
 \end{figure}
+
 
 \input{content/Analyse/benutzeroberfläche}
 \input{content/Analyse/simulatorInstance}

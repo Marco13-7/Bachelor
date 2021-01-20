@@ -1,13 +1,16 @@
 \subsection{SimulatorInstance}
-Die SimulatorInstance hat folgende Aufgaben:
+
+Die \texttt{SimulatorInstance} übernimmt die gesamte Simulation des Sensors der Anwendung und befindet sich, wie auf Abbildung \ref{img:SimulatorModels} im Plug-In \texttt{SensorSimulation}. Sie hat folgende Aufgaben:
+
 \begin{itemize}
-    \item Erstellen des Datenmodells des Simulators. Aufgrund von unterschiedlichen Werten und Zubehör zwischen den Sensortypen, wird das Datenmodell je nach Sensortyp und Asterix-version entsprechend befüllt. Dafür wird eine Helferklasse verwendet.
+    \item Erstellen des Datenmodells des Simulators. Aufgrund von unterschiedlichen Werten und Zubehör zwischen den Sensortypen, wird das       Datenmodell je nach Sensortyp und Asterix-version entsprechend befüllt. Dafür wird eine Helferklasse verwendet.
     \item Erstellen eines Sensors, je nach Sensortyp wird ein passender Sensor initialisiert. 
-    Der AbstractSensor ist die Vaterklasse der jeweiligen Sensortypen (\texttt{SensorBORA}, SensorGO12, SensorGO80 und SensorGA10). Über den Sensor können \\Asterix-Kommandos an die Venus versendet werden
-    \item Erstellen und starten des BeamlineTasks. Der BeamlineTask ist dafür zuständig, dass sich die Beamline des Sensors korrekt bewegt und die entsprechenden Werte im Modell geupdatet werden.
-    \item Erstellen und starten des Trackupdater. Er ist dafür zuständig die Tracks korrekt upgedatet werden und über das Asterixinterface versendet werden.
-    \item Erstellen und starten des MoaxaAndCameraServerTask. Dieser simuliert optionales Zubehör und die Kamera, falls dieser vorhanden ist.    
+        Der \texttt{AbstractSensor} ist die Vaterklasse der jeweiligen Sensortypen (\texttt{Sensor BORA}, \texttt{SensorGO12}, \texttt{SensorGO80} und \texttt{SensorGA10}). Über den Sensor können Asterix-Kommandos an die Venus gesendet werden
+    
+    \item Erstellen und starten des \texttt{BeamlineTask}. Der \texttt{BeamlineTask} ist dafür zuständig, dass sich die Beamline des Sensors korrekt bewegt und die dazugehörigen Werte im Modell geupdatet werden.
+    \item Erstellen und starten des \texttt{TrackUpdater}. Er ist dafür zuständig die Tracks korrekt upgedatet werden und über das Asterixinterface versendet werden.
+    \item Erstellen und starten des \texttt{MoaxaAndCameraServerTask}. Dieser simuliert optionales Zubehör und die Kamera, falls dieses vorhanden ist.    
     
 \end{itemize}
 
-Diese Tasks haben eine klar definierte Aufgabe und lassen sich gut wiederverwenden.
+TODO

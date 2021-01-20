@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2020/W32TeX)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+A level-1 auxiliary file: content/titelseite.aux
+A level-1 auxiliary file: content/einleitung.aux
+A level-1 auxiliary file: content/Grundlagen/grundlagen.aux
+A level-1 auxiliary file: content/Analyse/analyse.aux
+A level-1 auxiliary file: content/Konzept/konzept.aux
+The style file: plain.bst
+Database file #1: quellen.bib
+Warning--empty journal in nFunkAnf
+You've used 5 entries,
+            2118 wiz_defined-function locations,
+            523 strings with 4491 characters,
+and the built_in function-call counts, 1003 in all, are:
+= -- 85
+> -- 35
+< -- 0
++ -- 15
+- -- 10
+* -- 32
+:= -- 173
+add.period$ -- 11
+call.type$ -- 5
+change.case$ -- 20
+chr.to.int$ -- 0
+cite$ -- 6
+duplicate$ -- 38
+empty$ -- 106
+format.name$ -- 10
+if$ -- 211
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 1
+newline$ -- 24
+num.names$ -- 10
+pop$ -- 40
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 43
+stack$ -- 0
+substring$ -- 25
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 20
+warning$ -- 1
+while$ -- 10
+width$ -- 6
+write$ -- 41
+(There was 1 warning)

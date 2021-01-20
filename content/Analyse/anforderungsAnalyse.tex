@@ -1,52 +1,39 @@
 \section{Anforderungsanalyse der Ausprägungen/Anwendungen}
 \subsection{Funktionale Anforderungen}
 
-In diesem Abschnitt werden die funktionalen Anforderungen der drei verschiedenen Anwendungen, die im Rahmen dieser Arbeit entstanden sind, vorgestellt.
-„Funktionale Anforderungen beschreiben gewünschte Funktionalitäten (was soll das System tun/können) eines Systems bzw. Produkts, dessen Daten oder 
-Verhalten.“
+In diesem Abschnitt werden die funktionalen Anforderungen der drei Anwendungen, die im Rahmen dieser Arbeit entstanden sind, vorgestellt.
+Funktionale Anforderungen beschreiben gewünschte Funktionalitäten (was soll das System tun/können) eines Systems bzw. Produkts, dessen Daten oder
+Verhalten\cite{funkAnf}.
 
 Die funktionalen Anforderungen des Trainersimulators sind:
 
 \begin{itemize}
-    \item Der Trainersimulator muss dem Trainee ermöglichen sich mit dem Trainersimulator zu verbinden, wenn dieser sich im selben Netzwerk befindet und
-     die korrekte IP-Adresse eingegeben wurde.
-    \item Der Trainersimulator muss, bei Änderungen von PNU-Daten, dem hinzufügen von Bitfehlern oder dem Abspielen von Szenarien durch die graphische 
-    Oberfläche, die entsprechenden Informationen über das Netzwerk an alle verbundenen Trainees versenden.
+    \item Der Trainersimulator muss dem Trainee ermöglichen sich mit ihm zu verbinden, wenn dieser sich im selben Netzwerk befindet und die korrekte IP-Adresse hat.
+    \item Der Trainersimulator muss bei Änderungen von PNU-Daten, beim Hinzufügen von Bitfehlern oder dem Abspielen von Szenarien durch die graphische Oberfläche, die entsprechenden Informationen über das Netzwerk an alle verbundenen Trainees übertragen.
 \end{itemize}
 
 Der Traineesimulator hat folgende funktionale Anforderungen:
-
 \begin{itemize}
     \item Der Traineesimulator soll sich mit dem Trainersimulator verbinden können.
     \item Der Trainingssimulator soll sich mit der Venus verbinden, nachdem dieser die nötigen Informationen vom Trainersimulator empfangen hat.
-    \item Der Trainingssimulator muss, wenn er Simulations-Daten empfängt, diese verarbeiten und über das Asterix-Interface versenden
-    \item Der Trainingssimulator muss, wenn er Model-Daten empfängt, die entsprechenden Informationen im Modell updaten und über das Asterix-Interface
-     senden
+    \item Der Trainingssimulator muss, wenn er Simulations-Daten vom Trainersimulator empfängt, diese verarbeiten und über das Asterix-Interface versenden.
 \end{itemize}
 
-Die funktionalen Anforderungen der Testanwendung sollen nicht von den funktionalen Anforderungen des Radar Simulators nicht abweichen. Diese lauten:
+Die funktionalen Anforderungen der Testanwendung sollen nicht von den funktionalen Anforderungen des Radarsimulators nicht abweichen. Diese lauten:
 
 \begin{itemize}
-    \item Der Testsimulator soll eine Verbindung mit der Venus über das \\ Asterix-Interface aufbauen.
-    \item Der Testsimulator muss Informationen, die auf der graphischen Benutzeroberfläche verändert wurden über das Asterix-Interface versenden.
+    \item Der Testsimulator soll eine Verbindung zur Venus über das Asterix-Interface aufbauen
+    \item Der Testsimulator muss Informationen, die auf der graphischen Benutzeroberfläche verändert wurden, über das Asterix-Interface versenden.
 \end{itemize}
 
 \subsection{Nicht funktionale Anforderungen}
 
-„Nichtfunktionale Anforderungen sind Anforderungen, an die "Qualität" in welcher die geforderte Funktionalität zu erbringen ist“. Die nicht funktionalen 
-Anforderungen lassen sich für die drei Applikationen zusammenfassen, da diese fast vollständig übereinstimmen. Lediglich durch die Netzwerkverbindung der 
-Trainer- und Traineeanwendung entstehen Unterschiede. Die nichtfunktionalen Anforderungen lassen sich in mehrere Bereiche unterteilen. 
-Leistungsanforderungen, Qualitätsanforderungen und Randbedingungen.
+Nichtfunktionale Anforderungen sind Anforderungen, an die Qualität in welcher die geforderte Funktionalität zu erbringen ist \cite{funkAnf}. Die nicht funktionalen Anforderungen lassen sich für die drei Applikationen zusammenfassen, da diese fast vollständig übereinstimmen. Lediglich durch die Netzwerkverbindung der Trainer- und Traineeanwendung entstehen Unterschiede. Die nichtfunktionalen Anforderungen lassen sich in mehrere Bereiche unterteilen. Leistungsanforderungen, Qualitätsanforderungen und Randbedingungen.
 
-„Unter Leistungsanforderungen versteht man im Allgemeinen, Anforderungen an die empirisch messbaren nicht-funktionalen Anforderungen eines Systems, also 
-Anforderungen, deren zu Grunde liegendes Bedürfnis ein Leistungsmerkmal ist.“ [Braun-ausarbeitung]. Eine Leistungsanforderung jeder Anwendung ist, dass 
-diese die Simulation in Echtzeit ausführt und eine Verzögerung um 10 ms im akzeptablen Bereich liegt. Zudem sollen diese nicht zu viel Speicher besetzen 
-und die Prozessorbelastung sollte einen realistischen Wert betragen. Um dafür zu garantieren werden Belastungstests, mit der entsprechenden Hardware, auf 
-der die Anwendung später laufen soll, durchgeführt.
+Unter Leistungsanforderungen versteht man im Allgemeinen, Anforderungen an die empirisch messbaren nicht-funktionalen Anforderungen eines Systems, also
+Anforderungen, deren zu Grunde liegendes Bedürfnis ein Leistungsmerkmal ist.\cite{nFunkAnf}. Eine Leistungsanforderung jeder Anwendung ist, dass diese die Simulation in Echtzeit ausführt und eine Verzögerung um 10 ms im akzeptablen Bereich liegt. Zudem sollen diese nicht zu viel Speicher besetzen und die Prozessorbelastung sollte einen realistischen Wert betragen. Um dafür zu garantieren werden Belastungstests, mit der entsprechenden Hardware, auf der die Anwendung später laufen soll, durchgeführt.
 
-Der „ISO/IEC 25000 Software engeneering Software product Qualitiy Requirements and Evaluation (SQUuarRE) ist ein aktueller Standard für die 
-Qualitätskriterien und -bewertungen von Softwareprodukten. Der Software Product Quality Model aus dem Standard ISO/IEC 25010 beschreibt acht Kriterien, 
-um die Qualität eines Produktes zu bewerten. Die acht Kriterien sind:
+Um die Qualitätsanforderungen zu überprüfen wird der ISO/IEC 25010 verwendet. Der ISO/IEC 25010 \cite{iso25010}Software engeneering Software product Qualitiy Requirements and Evaluation (SQUuarRE) ist ein aktueller Standard für die Qualitätskriterien und -bewertungen von Softwareprodukten. Der Software Product Quality Model aus dem Standard ISO/IEC 25010 beschreibt acht Kriterien, um die Qualität eines Produktes zu bewerten. Die acht Kriterien sind:
 \begin{itemize}
     \item Funktionalität
     \item Leistungseffizienz
@@ -55,9 +42,14 @@ um die Qualität eines Produktes zu bewerten. Die acht Kriterien sind:
     \item Zuverlässigkeit
     \item Sicherheit
     \item Wartbarkeit
-    \item Übertragbarkeit    
+    \item Übertragbarkeit
 \end{itemize}
 
-Die Qualitätsanforderung, die in dieser Arbeit im Mittelpunkt steht, ist die Wartbarkeit der Anwendungen. Wie bereits erwähnt soll die Arbeit zeigen, wie 
-eine Anwendung modularisiert und erweitert werden kann. Diese Kriterien fallen unter den Oberbegriff Wartbarkeit. Vor allem die Wiederverwendbarkeit von 
-Komponenten ist ein wichtiges Kriterium beim Erstellen der Anwendungen.
+Die Qualitätsanforderung, die in dieser Arbeit im Mittelpunkt steht, ist die Wartbarkeit. Die Unterpunkte im Bereich Wertbarkeit des ISO 25010 sind Modularität, Wiederverwendbarkeit, Analysierbarkeit, Modifizierbarkeit und Testbarkeit. Wie bereits erwähnt, soll die Arbeit genau diese Kriterien beachten. 
+
+In Bezug auf die Modularität, soll eine Anwendung aus losen Komponenten bestehen, bei denen wichtig ist, dass diese Möglichst wenig Abhängigkeiten haben. Dies wird durch gut definierte Schnittstellen erreicht und hat den Vorteil, dass Änderungen der Module minimale Auswirkungen auf das Gesamtsystem haben. Um die Modularität der Anwendung weiter zu verbessern wird das OSGi-Framework \Gls{equinox} verwendet.
+Wiederverwendbarkeit spielt eine besondere Rolle, da in dieser Arbeit gleich drei Anwendungen erstellt werden. Man erkennt gute Wiederverwendbarkeit von Code, wenn es wenig, bis keinen redundanten Code zwischen den Anwendungen gibt. Die Analysierbarkeit des Systems wird darin gemessen, wie gut erkannt werden kann, was durch die Änderung einer Komponente mit dem Gesamtsystem passiert. Außerdem hängt sie davon ab, wie gut sich fehlerhafte Komponenten erkennen lassen. Wenn ein System einfach geändert werden kann, ohne das Defekte entstehen, dann hat es gute Modifizierbarkeit. Da die drei Anwendungen auch von neuen Mitarbeitern weiterentwickelt werden, sind eine gute Analysierbarkeit und eine gute Wartbarkeit notwendig.  Dadurch können die Einarbeitungszeit und der Weiterentwicklungsaufwand deutlich gesenkt werden.
+
+Des Weiteren soll die Anwendung einfach testbar sein. Dies wird auch durch die Modularisierung der Systemkomponenten erreicht. Diese lassen sich einzeln gut Testen und lassen sich gut mocken, damit diese Mocks in die weiteren Tests eingebunden werden.
+
+TODO

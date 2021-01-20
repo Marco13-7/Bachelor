@@ -1,0 +1,120 @@
+\ifglsentryexists{osgi}{}%
+{%
+\gls@defglossaryentry{osgi}%
+{%
+name={OSGi},%
+sort={OSGi},%
+type={main},%
+first={OSGi},%
+firstplural={OSGis},%
+text={OSGi},%
+plural={OSGis},%
+description={Die OSGi Alliance spezifiziert eine hardwareunabhängige dynamische Softwareplattform, die es erleichtert, Anwendungen und ihre Dienste per Komponentenmodell zu modularisieren und zu verwalten},%
+descriptionplural={Die OSGi Alliance spezifiziert eine hardwareunabhängige dynamische Softwareplattform, die es erleichtert, Anwendungen und ihre Dienste per Komponentenmodell zu modularisieren und zu verwalten},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{equinox}{}%
+{%
+\gls@defglossaryentry{equinox}%
+{%
+name={Equinox},%
+sort={Equinox},%
+type={main},%
+first={Equinox},%
+firstplural={Equinoxs},%
+text={Equinox},%
+plural={Equinoxs},%
+description={Equinox ist ein von der Eclipse Foundation entwickeltes Java-basiertes Framework, das die OSGi-Kernspezifikation implementiert},%
+descriptionplural={Equinox ist ein von der Eclipse Foundation entwickeltes Java-basiertes Framework, das die OSGi-Kernspezifikation implementiert},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{venus}{}%
+{%
+\gls@defglossaryentry{venus}%
+{%
+name={Venus},%
+sort={Venus},%
+type={main},%
+first={Venus},%
+firstplural={Venuss},%
+text={Venus},%
+plural={Venuss},%
+description={Steuerungssoftware der Radargeräte von Thales},%
+descriptionplural={Steuerungssoftware der Radargeräte von Thales},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{buildpipline}{}%
+{%
+\gls@defglossaryentry{buildpipline}%
+{%
+name={Buildpipline},%
+sort={Buildpipline},%
+type={main},%
+first={Buildpipline},%
+firstplural={Buildpiplines},%
+text={Buildpipline},%
+plural={Buildpiplines},%
+description={Damit werden Anwendungen automatisiert gebaut},%
+descriptionplural={Damit werden Anwendungen automatisiert gebaut},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
