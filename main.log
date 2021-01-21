@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.29)  20 JAN 2021 17:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.12.29)  21 JAN 2021 14:56
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -914,89 +914,122 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7.
  (c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [10]
-<content/assets/Kapitel3/SimulatorModels.png, id=168, 1971.365pt x 1288.815pt>
+<content/assets/Kapitel3/SimulatorModels.png, id=184, 1971.365pt x 1288.815pt>
 File: content/assets/Kapitel3/SimulatorModels.png Graphic file (type png)
 <use content/assets/Kapitel3/SimulatorModels.png>
-Package pdftex.def Info: content/assets/Kapitel3/SimulatorModels.png  used on input line 32.
+Package pdftex.def Info: content/assets/Kapitel3/SimulatorModels.png  used on input line 33.
 (pdftex.def)             Requested size: 341.43442pt x 223.20578pt.
  (./content/Analyse/benutzeroberfläche.tex [11 <./content/assets/Kapitel3/SimulatorModels.png>]
-<content/assets/Kapitel3/AlterSimulator.png, id=178, 1931.215pt x 967.615pt>
+<content/assets/Kapitel3/AlterSimulator.png, id=194, 1931.215pt x 967.615pt>
 File: content/assets/Kapitel3/AlterSimulator.png Graphic file (type png)
 <use content/assets/Kapitel3/AlterSimulator.png>
 Package pdftex.def Info: content/assets/Kapitel3/AlterSimulator.png  used on input line 14.
 (pdftex.def)             Requested size: 341.43442pt x 171.06262pt.
-<content/assets/Kapitel3/TabsPerApp.png, id=180, 2413.015pt x 1288.815pt>
+<content/assets/Kapitel3/TabsPerApp.png, id=196, 2413.015pt x 1288.815pt>
 File: content/assets/Kapitel3/TabsPerApp.png Graphic file (type png)
 <use content/assets/Kapitel3/TabsPerApp.png>
 Package pdftex.def Info: content/assets/Kapitel3/TabsPerApp.png  used on input line 24.
 (pdftex.def)             Requested size: 341.43442pt x 182.3601pt.
 ) (./content/Analyse/simulatorInstance.tex [12 <./content/assets/Kapitel3/AlterSimulator.png>] [13 <./content/assets/Kapitel3/TabsPerApp.png>]) (./content/Analyse/model.tex [14]
-<content/assets/Kapitel3/ScenarioViewRelations.png, id=201, 2413.015pt x 686.565pt>
+<content/assets/Kapitel3/ScenarioViewRelations.png, id=217, 2413.015pt x 686.565pt>
 File: content/assets/Kapitel3/ScenarioViewRelations.png Graphic file (type png)
 <use content/assets/Kapitel3/ScenarioViewRelations.png>
-Package pdftex.def Info: content/assets/Kapitel3/ScenarioViewRelations.png  used on input line 41.
+Package pdftex.def Info: content/assets/Kapitel3/ScenarioViewRelations.png  used on input line 45.
 (pdftex.def)             Requested size: 426.7914pt x 121.42876pt.
-<content/assets/Kapitel3/TargetSimulationUsecase.png, id=202, 2633.84pt x 971.63pt>
+ [15 <./content/assets/Kapitel3/ScenarioViewRelations.png>]
+<content/assets/Kapitel3/TargetSimulationUsecase.png, id=226, 2633.84pt x 971.63pt>
 File: content/assets/Kapitel3/TargetSimulationUsecase.png Graphic file (type png)
 <use content/assets/Kapitel3/TargetSimulationUsecase.png>
-Package pdftex.def Info: content/assets/Kapitel3/TargetSimulationUsecase.png  used on input line 50.
+Package pdftex.def Info: content/assets/Kapitel3/TargetSimulationUsecase.png  used on input line 54.
 (pdftex.def)             Requested size: 426.7914pt x 157.4358pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15 <./content/assets/Kapitel3/ScenarioViewRelations.png>]))) [16 <./content/assets/Kapitel3/TargetSimulationUsecase.png>]
+))) [16 <./content/assets/Kapitel3/TargetSimulationUsecase.png>]
 \openout2 = `content/Konzept/konzept.aux'.
 
  (./content/Konzept/konzept.tex
 chapter 4.
 (./content/Konzept/konzeptBenutzeroberfläche.tex
-<content/assets/Kapitel4/ExtensionPointEasy.png, id=217, 1409.265pt x 686.565pt>
+<content/assets/Kapitel4/ExtensionPointEasy.png, id=233, 1409.265pt x 686.565pt>
 File: content/assets/Kapitel4/ExtensionPointEasy.png Graphic file (type png)
 <use content/assets/Kapitel4/ExtensionPointEasy.png>
-Package pdftex.def Info: content/assets/Kapitel4/ExtensionPointEasy.png  used on input line 12.
-(pdftex.def)             Requested size: 256.07744pt x 124.7497pt.
+Package pdftex.def Info: content/assets/Kapitel4/ExtensionPointEasy.png  used on input line 8.
+(pdftex.def)             Requested size: 298.75267pt x 145.5448pt.
+<content/assets/Kapitel4/konzeptBenutzeroberfläche1.png, id=234, 2694.065pt x 967.615pt>
+File: content/assets/Kapitel4/konzeptBenutzeroberfläche1.png Graphic file (type png)
+<use content/assets/Kapitel4/konzeptBenutzeroberfläche1.png>
+Package pdftex.def Info: content/assets/Kapitel4/konzeptBenutzeroberfläche1.png  used on input line 17.
+(pdftex.def)             Requested size: 426.7914pt x 153.28604pt.
  [17
 
 
 
 
 
- <./content/assets/Kapitel4/ExtensionPointEasy.png>]
-<content/assets/Kapitel4/konzeptBenutzeroberfläche1.png, id=224, 2694.065pt x 967.615pt>
-File: content/assets/Kapitel4/konzeptBenutzeroberfläche1.png Graphic file (type png)
-<use content/assets/Kapitel4/konzeptBenutzeroberfläche1.png>
-Package pdftex.def Info: content/assets/Kapitel4/konzeptBenutzeroberfläche1.png  used on input line 21.
-(pdftex.def)             Requested size: 384.10965pt x 137.94563pt.
- [18 <./content/assets/Kapitel4/konzeptBenutzeroberfläche1.png>]) (./content/Konzept/SimulatorInstance.tex) [19] [20]
-<content/assets/BeamlineTaskSTT.png, id=239, 2023.56pt x 3027.31pt>
+ <./content/assets/Kapitel4/ExtensionPointEasy.png>] [18 <./content/assets/Kapitel4/konzeptBenutzeroberfläche1.png>]) [19] (./content/Konzept/konzeptInstance.tex
+<content/assets/Kapitel4/SimulatorInstance.png, id=252, 2613.765pt x 4047.12pt>
+File: content/assets/Kapitel4/SimulatorInstance.png Graphic file (type png)
+<use content/assets/Kapitel4/SimulatorInstance.png>
+Package pdftex.def Info: content/assets/Kapitel4/SimulatorInstance.png  used on input line 18.
+(pdftex.def)             Requested size: 362.77528pt x 561.71439pt.
+ [20] [21 <./content/assets/Kapitel4/SimulatorInstance.png>]
+<content/assets/Kapitel4/AlterSimulator.png, id=264, 1931.215pt x 967.615pt>
+File: content/assets/Kapitel4/AlterSimulator.png Graphic file (type png)
+<use content/assets/Kapitel4/AlterSimulator.png>
+Package pdftex.def Info: content/assets/Kapitel4/AlterSimulator.png  used on input line 28.
+(pdftex.def)             Requested size: 298.75267pt x 149.68349pt.
+<content/assets/Kapitel4/NeuerTestSimulator.png, id=267, 2589.675pt x 1128.215pt>
+File: content/assets/Kapitel4/NeuerTestSimulator.png Graphic file (type png)
+<use content/assets/Kapitel4/NeuerTestSimulator.png>
+Package pdftex.def Info: content/assets/Kapitel4/NeuerTestSimulator.png  used on input line 37.
+(pdftex.def)             Requested size: 362.77528pt x 158.0351pt.
+ [22 <./content/assets/Kapitel4/AlterSimulator.png> <./content/assets/Kapitel4/NeuerTestsimulator.png>]
+<content/assets/Kapitel4/BitChangeBeispiel.png, id=277, 3107.61pt x 807.015pt>
+File: content/assets/Kapitel4/BitChangeBeispiel.png Graphic file (type png)
+<use content/assets/Kapitel4/BitChangeBeispiel.png>
+Package pdftex.def Info: content/assets/Kapitel4/BitChangeBeispiel.png  used on input line 48.
+(pdftex.def)             Requested size: 426.7914pt x 110.82637pt.
+ [23 <./content/assets/Kapitel4/BitChangeBeispiel.png>]
+<content/assets/Kapitel4/TargetSimulationNetwork.png, id=287, 2364.835pt x 646.415pt>
+File: content/assets/Kapitel4/TargetSimulationNetwork.png Graphic file (type png)
+<use content/assets/Kapitel4/TargetSimulationNetwork.png>
+Package pdftex.def Info: content/assets/Kapitel4/TargetSimulationNetwork.png  used on input line 66.
+(pdftex.def)             Requested size: 384.10965pt x 104.98694pt.
+ [24 <./content/assets/Kapitel4/TargetSimulationNetwork.png>]
+<content/assets/Kapitel4/AsterixSimulator.png, id=295, 1991.44pt x 807.015pt>
+File: content/assets/Kapitel4/AsterixSimulator.png Graphic file (type png)
+<use content/assets/Kapitel4/AsterixSimulator.png>
+Package pdftex.def Info: content/assets/Kapitel4/AsterixSimulator.png  used on input line 80.
+(pdftex.def)             Requested size: 384.10965pt x 155.64948pt.
+ [25 <./content/assets/Kapitel4/AsterixSimulator.png>]) [26] (./content/Konzept/konzeptNetworkInterface.tex
+<content/assets/Kapitel4/NetworkInterface.png, id=310, 333.099pt x 318.3165pt>
+File: content/assets/Kapitel4/NetworkInterface.png Graphic file (type png)
+<use content/assets/Kapitel4/NetworkInterface.png>
+Package pdftex.def Info: content/assets/Kapitel4/NetworkInterface.png  used on input line 7.
+(pdftex.def)             Requested size: 384.10965pt x 367.06654pt.
+ [27 <./content/assets/Kapitel4/NetworkInterface.png>]) [28] (./content/Konzept/konzeptFeatures.tex [29]
+<content/assets/BeamlineTaskSTT.png, id=326, 2023.56pt x 3027.31pt>
 File: content/assets/BeamlineTaskSTT.png Graphic file (type png)
 <use content/assets/BeamlineTaskSTT.png>
-Package pdftex.def Info: content/assets/BeamlineTaskSTT.png  used on input line 51.
+Package pdftex.def Info: content/assets/BeamlineTaskSTT.png  used on input line 36.
 (pdftex.def)             Requested size: 256.07744pt x 383.07831pt.
-<content/assets/TrackUpdaterSTT.png, id=240, 2007.5pt x 3709.86pt>
+<content/assets/TrackUpdaterSTT.png, id=327, 2380.895pt x 3665.695pt>
 File: content/assets/TrackUpdaterSTT.png Graphic file (type png)
 <use content/assets/TrackUpdaterSTT.png>
-Package pdftex.def Info: content/assets/TrackUpdaterSTT.png  used on input line 57.
-(pdftex.def)             Requested size: 277.41179pt x 512.64053pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [21 <./content/assets/BeamlineTaskSTT.png>] [22 <./content/assets/TrackUpdaterSTT.png>] (./main.bbl) [23
+Package pdftex.def Info: content/assets/TrackUpdaterSTT.png  used on input line 42.
+(pdftex.def)             Requested size: 277.41179pt x 427.1115pt.
+)) [30 <./content/assets/BeamlineTaskSTT.png>] [31 <./content/assets/TrackUpdaterSTT.png>] (./main.bbl [32
 
 
 
 
-] (./main.aux (./content/titelseite.aux) (./content/einleitung.aux) (./content/Grundlagen/grundlagen.aux) (./content/Analyse/analyse.aux) (./content/Konzept/konzept.aux))
+]) [33] (./main.aux (./content/titelseite.aux) (./content/einleitung.aux) (./content/Grundlagen/grundlagen.aux) (./content/Analyse/analyse.aux) (./content/Konzept/konzept.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 20870 strings out of 479382
- 387724 string characters out of 5857467
+ 20962 strings out of 479382
+ 390322 string characters out of 5857467
  922180 words of memory out of 5000000
- 37365 multiletter control sequences out of 15000+600000
+ 37417 multiletter control sequences out of 15000+600000
  453187 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  106i,8n,111p,10670b,1194s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1011,10 +1044,10 @@ pdfTeX warning (dest): name{glo:mmi} has been referenced but does not exist, rep
 pdfTeX warning (dest): name{glo:equinox} has been referenced but does not exist, replaced by a fixed one
 
 {c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/type1/public/lm/lmro12.pfb><c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt10.pfb><c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on main.pdf (27 pages, 1001776 bytes).
+Output written on main.pdf (37 pages, 1736155 bytes).
 PDF statistics:
- 385 PDF objects out of 1000 (max. 8388607)
- 328 compressed objects within 4 object streams
- 91 named destinations out of 1000 (max. 500000)
- 266 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 425 compressed objects within 5 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 365 words of extra memory for PDF output out of 10000 (max. 10000000)
 

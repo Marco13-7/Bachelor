@@ -25,6 +25,7 @@ void start(final BorderPane parent) {
 
 \end{lstlisting}
 
+
 Die gesamte Funktionalität der Sensorsimulation stellt die \texttt{SimulatorInstance zur Verfügung}. Wenn der \texttt{RestartService} die \texttt{SimulatorInstance} erfolgreich geladen hat, initialisiert dieser die Benutzeroberfläche der Anwendung. Außerdem ermöglicht es der \texttt{RestartService}, die Simulation durch einen Mausklick in ein Fenster Menü item neu zu starten. Dabei werden die Benutzeroberfläche, sowie die \texttt{SimulatorInstance} neu geladen. Der \texttt{RestartService} soll zudem auch im zukünftigen Testsimulator sowie im Trainer- und Traineesimulator enthalten sein. Die \texttt{SimulatorInstance} und der \texttt{SimulatorMainContentProvider} werden in der SimulatorMain als Attribute gespeichert. Wenn die Benutzeroberfläche geladen wird, bekommt diese die \texttt{SimulatorInstance} übergeben, damit diese die Simulation steuern kann. Wie es bei einer Eclipse Applikation üblich ist, sind Funktionen der Anwendung in Softwaremodule eingeteilt. Diese Module heißen im Equinox-Framework Plug-Ins. Auf Abbildung \ref{img:SimulatorModels} erkennt man die Aufteilung der Hauptkomponenten in zwei Plug-Ins.
 
 \begin{figure}[h]
@@ -33,7 +34,6 @@ Die gesamte Funktionalität der Sensorsimulation stellt die \texttt{SimulatorIns
     \caption{Die Module \texttt{SensorSimulator} und \texttt{RadarSimulator.app} des Radarsimulators}
     \label{img:SimulatorModels}
 \end{figure}
-
 
 \input{content/Analyse/benutzeroberfläche}
 \input{content/Analyse/simulatorInstance}

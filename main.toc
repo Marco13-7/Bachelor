@@ -22,7 +22,15 @@
 \contentsline {chapter}{\numberline {4}Konzept}{17}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Neue Architektur}{17}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Benutzeroberfläche}{17}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}SimulatorInstance}{19}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Features}{20}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Single Target Tracking}{20}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.2}Simulator Instance}{20}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Simulator Core}{20}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Modell-Observer im SimulatorCore}{22}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}TrainerSimulator}{23}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.4}AsterixSimulator}{24}{subsection.4.2.4}%
+\contentsline {subsection}{\numberline {4.2.5}TraineeSimulator}{25}{subsection.4.2.5}%
+\contentsline {subsection}{\numberline {4.2.6}TestSimulator}{26}{subsection.4.2.6}%
+\contentsline {section}{\numberline {4.3}Netzwerkschnittstelle}{27}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Factories}{28}{subsection.4.3.1}%
+\contentsline {section}{\numberline {4.4}Features}{29}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Single Target Tracking}{29}{subsection.4.4.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
