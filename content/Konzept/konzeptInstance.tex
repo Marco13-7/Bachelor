@@ -3,9 +3,7 @@ Die \texttt{SimulatorInstance} unterscheidet sich bei jeder Anwendungsausprägun
 
 Damit jede Simulatorinstanz von der \texttt{SimulatorMain} verwendet werden kann, implementieren diese ein gemeinsames Interface. Dieses heißt \texttt{ISimulator} und erweitert das Interface \texttt{ISimulatorViewAPI}. Die \texttt{ISimulatorViewAPI} definiert die Schnittstelle zwischen GUI-Komponente und der \texttt{SimulatorInstance}. Zum einen muss auf das Modell zugegriffen werden. Dieses wird über die Methode \texttt{getModel()} bereitgestellt. Des Weiteren wird noch ein ITargetUpdateListener benötigt, der vom ScenarioUpdater verwendet wird um Ziele über das Asterix-Interface zu versenden. Dieser wird mit der Methode \texttt{getTargetUpdater()} übergeben. Diese beiden Methoden bilden die \texttt{ISimulatorViewAPI}.
 
-Der AbstractSimulatorMain benötigt den ISimulator, um diesen zu stoppen und um die GUI-Komponente die ISimulatorViewAPI übergeben. Deswegen ist die einzige Methode des Interfaces die stop()-Methode. Das Starten der SimulatorInstanz wird vom RestartService übernommen und wird in Kapitel 4.X gezeigt.
-
-TODO
+Der \texttt{AbstractSimulatorMain} benötigt den \texttt{ISimulator}, um diesen zu stoppen und um die GUI-Komponente die \texttt{ISimulatorViewAPI} übergeben. Deswegen ist die einzige Methode des Interfaces die \texttt{stop()}-Methode. Das Starten der \texttt{SimulatorInstance} wird vom \texttt{RestartService} übernommen und wird in Kapitel 4.2 gezeigt.
 
 \subsection{Simulator Core}
 Eine Komponente, die jede Instance enthält, ist das Datenmodell. Es wurde entschieden, dass das Modell des RadarSimulator mit einer kleinen Erweiterung, für alle drei Anwendungen genutzt wird. Dadurch kann nicht nur der Modell-Code wiederverwendet werden, sondern auch der Code zum Aufbauen und Bearbeiten des Modells bleibt identisch.

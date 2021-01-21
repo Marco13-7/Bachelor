@@ -3,6 +3,18 @@
 \section{Neue Architektur}
 Die neue Architektur soll eine gute und stabile Basis für alle drei Anwendungen bieten. Das soll durch das Erstellen von modularen Komponenten geschehen. Der Kernstruktur der drei Anwendungen soll identisch sein, sodass möglichst wenig unterschiedlicher Code notwendig ist, um die verschiedenen Anwendungen zu erstellen. Bei den Softwaremodulen ist es wichtig, dass diese eine eindeutige Funktion haben, dass eindeutige Schnittstelen definiert sind und dass diese gut wiederverwendet werden können. 
 
+\section{SimulatorMain}
+Die Struktur des \texttt{Radarsimulators}, wird im Kern beibehalten. Diese Struktur beinhaltet eine \texttt{SimulatorMain}-Klasse mit einem \texttt{RestartSevice}, eine \texttt{SimulatorInstance}, welche die Funktionen und Verbindungen zur Verfügung stellt und eine View-komponente, welche für die Benutzeroberfläche zuständig ist.  Die \texttt{SimulatorInstance} wird über das Interface \texttt{ISimulator} bedient, welches in Abbilung \ref{fig:SimulatorInstance} zu sehen ist. Die View-Komponente wurde so aufgebaut, dass jede der drei Anwednung diese verwenden kann. Im Kapitel 4.3 wird gezeigt, wie das funktioniert. Der \texttt{RestartService} konnte nicht für jede einzelne Anwendung verallgemeinert werden, da die Instancen verschiedene Startparameter benötigen. Deshalb gibt es eine \texttt{AbstractSimulatorMain}-Klasse, von der die Main-Klassen der weiteren Anwendungen erben. In Abbildung \ref{fig:abstractMain} ist der genaue Aufbau zu erkennen. 
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.9\textwidth]{content/assets/Kapitel4/AbstractMain.png}
+    \caption{\texttt{AbstractSimulatorMain} und erbende Klassen}
+    \label{fig:abstractMain}
+\end{figure}
+
+Um diese Kernfunktionen den Simulatoren zur Verfügung zu stellen gibt es ein Modul namens \texttt{SimulatorMainCore}. Dieses beinhaltet die AbstractSimulatorMain und weitere Klassen, die eine Eclipse-RCP Applikation benötigt.
+
 \input{content/Konzept/konzeptBenutzeroberfläche}
 \newpage
 \input{content/Konzept/konzeptInstance}

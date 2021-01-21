@@ -21,16 +21,17 @@
 \contentsline {subsection}{\numberline {3.2.4}Model}{14}{subsection.3.2.4}%
 \contentsline {chapter}{\numberline {4}Konzept}{17}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Neue Architektur}{17}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Benutzeroberfläche}{17}{subsection.4.1.1}%
-\contentsline {section}{\numberline {4.2}Simulator Instance}{20}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Simulator Core}{20}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Modell-Observer im SimulatorCore}{22}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}TrainerSimulator}{23}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}AsterixSimulator}{24}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}TraineeSimulator}{25}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}TestSimulator}{26}{subsection.4.2.6}%
-\contentsline {section}{\numberline {4.3}Netzwerkschnittstelle}{27}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Factories}{28}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Features}{29}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Single Target Tracking}{29}{subsection.4.4.1}%
+\contentsline {section}{\numberline {4.2}SimulatorMain}{17}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Benutzeroberfläche}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Simulator Instance}{21}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Simulator Core}{21}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Modell-Observer im SimulatorCore}{23}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}TrainerSimulator}{24}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}AsterixSimulator}{25}{subsection.4.4.4}%
+\contentsline {subsection}{\numberline {4.4.5}TraineeSimulator}{26}{subsection.4.4.5}%
+\contentsline {subsection}{\numberline {4.4.6}TestSimulator}{27}{subsection.4.4.6}%
+\contentsline {section}{\numberline {4.5}Netzwerkschnittstelle}{28}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Factories}{29}{subsection.4.5.1}%
+\contentsline {section}{\numberline {4.6}Features}{30}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Single Target Tracking}{30}{subsection.4.6.1}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

@@ -1,0 +1,5 @@
+PWD c:/Users/schae/AlleDateien/Studium/Bachelor/BachelorDoku/LaTeXBachelor
+INPUT c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf.cnf
+INPUT c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT c:/Users/schae/AlleDateien/Studium/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/schae/AlleDateien/Studium/Bachelor/BachelorDoku/LaTeXBachelor/main.tex
